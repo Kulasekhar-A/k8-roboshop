@@ -23,7 +23,7 @@ spec:
         tier: db
         component: mongodb
     spec:
-      container:
+      containers:
       - name: mongodb
         image: annurukulasekhar/mongodb:1.0.0
 ---
