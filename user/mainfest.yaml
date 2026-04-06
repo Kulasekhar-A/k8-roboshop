@@ -20,20 +20,20 @@ metadata:
   labels:
     project: roboshop
     tier: backend
-    component: roboshop
+    component: user
 spec:
   replicas: 1
   selector:
     matchLabels:
       project: roboshop
       tier: backend
-      component: cart
+      component: user
   template:
     metadata:
       labels:
         project: roboshop
         tier: backend
-        component: cart
+        component: user
     spec:
       containers:
       - name: user
