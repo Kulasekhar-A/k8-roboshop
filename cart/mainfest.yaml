@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
       - name: cart
-        image: annurukulasekhhar/cart:1.4.0
+        image: annurukulasekhar/cart:1.4.0
         imagePullPolicy: Always
         resources:
           requests:
