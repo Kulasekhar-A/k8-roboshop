@@ -33,11 +33,11 @@ spec:
         project: roboshop
         tier: backend
         component: shipping
-      spec:
-        containers:
-        - name: shipping
-          image: annurukulasekhar/shipping:1.4.0
-          imagePullPolicy: Always
+    spec:
+      containers:
+      - name: shipping
+        image: annurukulasekhar/shipping:1.4.0
+        imagePullPolicy: Always
         resources:
           requests:
             memory: "120Mi"
