@@ -124,6 +124,7 @@ spec:
         volumeMounts:
         - name: nginx-conf
           mountPath: "/etc/nginx/nginx.conf"
+          subPath: nginx.conf
           readOnly: true
 ---
 apiVersion: v1
