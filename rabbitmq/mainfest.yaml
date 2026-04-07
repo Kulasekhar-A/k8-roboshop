@@ -19,7 +19,7 @@ metadata:
   labels:
     project: roboshop
     tier: db
-    component: raabbitmq
+    component: rabbitmq
 spec:
   replicas: 1
   selector:
@@ -39,7 +39,7 @@ spec:
         image: rabbitmq:3
         envFrom:
         - configMapRef:
-          name: rabbitmq
+           name: rabbitmq
 ---
 apiVersion: v1
 kind: Service
