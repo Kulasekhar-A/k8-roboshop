@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: annurukulasekhar/ffrontend:1.4.0
+        image: annurukulasekhar/frontend:1.4.0
         resources:
           requests:
             memory: "120Mi"
